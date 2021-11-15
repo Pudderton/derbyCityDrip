@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
     <script src="javascript/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 
@@ -250,10 +251,13 @@
     </div>
         <h3 class="quantico white">Email:</h3>
     <div class="inputDiv">
-        <input class="signInput" type="text" placeholder="Enter Email Address" />
+        <input id="email" class="signInput" type="text" placeholder="Enter Email Address"/>
+    </div>
+    <div>
+        <h2 id="result"></h2>
     </div>
     <div class="btnCenter">
-        <button class="quantico white btn joinBtn capslock">Join Now</button>
+        <button id="joinBtnClick" class="quantico white btn joinBtn capslock">Join Now</button>
     </div>
     </div>
 </section>
