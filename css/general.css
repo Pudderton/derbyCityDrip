@@ -130,7 +130,6 @@ body {
 
 .btnCenter {
     text-align: center;
-
 }
 
 
@@ -231,8 +230,6 @@ body {
     margin: 0;
 }
 
-
-
 /* COFFEE */
 
 
@@ -251,7 +248,7 @@ body {
 }
 
 .newsText {
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0 2.5rem 2rem 2.5rem;
 }

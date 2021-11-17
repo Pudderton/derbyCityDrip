@@ -1,7 +1,14 @@
 @media only screen and (min-width:768px) {
  
+/* MENU */
+.menu {
+    margin: 3rem;
+}
 
-
-
+/* NEWSLETTER*/
+.signUp {
+    margin: 2rem 10% 0 10%;
+    text-align: left;
+}
 
 } /* end of media query*/

@@ -1,7 +1,43 @@
 @media only screen and (min-width:1024px) {
- 
+
+.hero {
+    background-image: url(../assets/photos/coffee-hero-bg.jpg);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: #D5E0E2;
+    background-position: 0% 40%;
+    background-size: 2000px;
+    justify-content: left;
+}
 
 
 
+
+/* MENU */
+.menu {
+    column-count: 2;
+    margin: 3rem;
+    column-gap: 3rem;
+}
+
+.menuDiv{
+    column-span: all;
+    margin: 0 30% 0 30%;
+}
+
+/* NEWSLETTER*/
+.signUp {
+    margin: 2rem 30% 0 30%;
+    text-align: left;
+}
+
+/* FOOTER */
+
+.socialUl {
+
+    margin: 0 75% 0 5%;
+}
 
 } /* end of media query*/
