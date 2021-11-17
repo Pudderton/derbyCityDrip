@@ -6,8 +6,9 @@
 }
 
 .navLogo{
+    display: flex;
     max-width: 300px;
-    padding: 5px;
+    margin: 5px;
 }
 
 .navbar-links {
@@ -47,6 +48,7 @@
     justify-content: space-between;
     width: 40px;
     height: 21px;
+    margin: 0.5rem;
 }
 
 .toggle-button .bar {
@@ -128,7 +130,7 @@ body {
     font-size: 22px;
 }
 
-.btnCenter {
+.heroBtnCenter {
     text-align: center;
 }
 
@@ -144,14 +146,14 @@ body {
 
 .roastTitle {
     line-height: 3rem;
-    padding: 2rem 4rem 0 4rem;
+    margin: 2rem 4rem 0 4rem;
     text-align: center;
     font-size: 2.3rem;
 }
 
 .roastText {
     text-align: left;
-    padding: 2rem 3rem 3rem 3rem;
+    margin: 2rem 3rem 3rem 3rem;
 }
 
 /* LOCATION */
@@ -213,7 +215,7 @@ body {
     padding: 5rem 0 2rem 0;
     margin: 0;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: #233237;
 }
 
@@ -277,6 +279,10 @@ body {
     height: 60px;
     width: 240px;
     margin: 0 0 5rem 0;
+}
+
+.BtnCenter {
+    text-align: center;
 }
 
 /* FOOTER */
